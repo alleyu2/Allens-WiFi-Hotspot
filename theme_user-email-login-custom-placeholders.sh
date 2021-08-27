@@ -90,7 +90,7 @@ name_email_login() {
 	#
 	# The client is required to accept the terms of service.
 
-	if [ ! -z "$username" ] && [ ! -z "$emailaddress" ]; then
+	if [ ! -z "$username" ] && [ ! -z "$emailaddress" ] && [ ! -z "$custom_inputs" ]; then
 		thankyou_page
 		footer
 	fi
@@ -140,7 +140,7 @@ thankyou_page () {
 
 	echo "
 		<big-red>
-			Thankyou for using this service
+			Thank you for using this service
 		</big-red>
 		<br>
 		<b>Welcome $username</b>
