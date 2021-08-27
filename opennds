@@ -36,7 +36,7 @@ config opennds
 	# 1.Default Dynamic Click to Continue
 	# The pre-installed dynamic login page is enabled by setting option login_option_enabled = '1'.
 	# It generates a Click to Continue page followed by a info/advertising page.
-	# User clicks on “Continue” are recorded in the log file /[tmpfs_dir]/ndslog/ndslog.log
+	# User clicks on â€œContinueâ€ are recorded in the log file /[tmpfs_dir]/ndslog/ndslog.log
 	#
 	# 2. Username/Emailaddress Dynamic Login
 	# The pre-installed dynamic login page is enabled by setting option login_option_enabled = '2'.
