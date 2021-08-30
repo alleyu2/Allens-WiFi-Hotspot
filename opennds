@@ -96,8 +96,8 @@ config opennds
 	# and
 	# theme_user-email-login-custom-placeholders
 	#
-	list fas_custom_parameters_list 'logo_message=This%20Hotspot%20is%20powered%20by%20OpenWrt!'
-	list fas_custom_parameters_list 'banner1_message=This%20is%20a%20free%20WiFi%20Hotspot%20sponsored%20by%20Allen'
+	list fas_custom_parameters_list 'logo_message=This%20Hotspot%20is%20powered%20by%20OpenWrt%20Router%20!'
+	#list fas_custom_parameters_list 'banner1_message=This%20is%20a%20free%20WiFi%20Hotspot%20sponsored%20by%20Allen'
 	#list fas_custom_parameters_list 'banner2_message=HMS%20Pickle'
 	#list fas_custom_parameters_list 'banner3_message=SeaWolf%20Cruiser%20Racer'
 	###########################################################################################
@@ -137,7 +137,7 @@ config opennds
 	#
 	# this example inserts Phone Number and Home Post Code fields:
 	#
-	list fas_custom_variables_list 'input=phone:Phone:number'
+	list fas_custom_variables_list 'input=phone:Phone:tel'
 	#
 	###########################################################################################
 
@@ -166,9 +166,9 @@ config opennds
 	# theme_user-email-login-custom-placeholders
 	#
 	list fas_custom_images_list 'logo_png=https://openwrt.org/_media/logo.png'
-	list fas_custom_images_list 'banner1_jpg=https://raw.githubusercontent.com/alleyu2/Allens-WiFi-Hotspot/main/Allens%20Wifi%20Hotspot.jpg'
-	list fas_custom_images_list 'banner2_jpg=https://raw.githubusercontent.com/alleyu2/Allens-WiFi-Hotspot/main/Allens%20Wifi%20Hotspot.jpg'
-	list fas_custom_images_list 'banner3_jpg=https://raw.githubusercontent.com/alleyu2/Allens-WiFi-Hotspot/main/Allens%20Wifi%20Hotspot.jpg'
+	list fas_custom_images_list 'banner1_jpg=https://raw.githubusercontent.com/alleyu2/Allens-WiFi-Hotspot/main/Allens%20Wifi%20Hotspot.png'
+	list fas_custom_images_list 'banner2_jpg=https://raw.githubusercontent.com/alleyu2/Allens-WiFi-Hotspot/main/Enjoy%20Free%20Wifi.jpg'
+	list fas_custom_images_list 'banner3_jpg=https://raw.githubusercontent.com/alleyu2/Allens-WiFi-Hotspot/main/Allens%20Wifi%20Hotspot.png'
 	#
 	###########################################################################################
 
