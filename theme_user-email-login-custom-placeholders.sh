@@ -115,7 +115,7 @@ login_form() {
 			<input type=\"hidden\" name=\"fas\" value=\"$fas\">
 			<input type=\"text\" name=\"username\" value=\"$username\" autocomplete=\"on\" ><br><italic-black>Name</italic-black><br><br>
 			<input type=\"email\" name=\"emailaddress\" value=\"$emailaddress\" autocomplete=\"on\" ><br><italic-black>Email</italic-black><br><br>
-			$custom_inputs
+			<italic-black>$custom_inputs</italic-black>
 			<input type=\"submit\" value=\"Accept Terms of Service\" >
 		</form>
 		<br>
